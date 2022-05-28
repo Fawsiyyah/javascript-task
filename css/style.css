@@ -31,3 +31,25 @@
 .girls {
     color: black;
 }
+
+@media (max-width:769px) and (min-width:426px) {
+    #container{
+    width: 100%;
+    border-radius: 50px 100px;
+    }
+}
+
+@media(max-width: 426px) {
+    #container{
+    width: 100%;
+    border-radius: 70px 100px;
+    }
+
+    .card h1 {
+        font-size: 30px;
+    }
+
+    #lists li {
+        font-size: 20px;
+    }
+}
