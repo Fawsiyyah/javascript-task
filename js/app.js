@@ -88,14 +88,3 @@ let nutjobBmitwo = nutjobWeighttwo /(nutjobHeighttwo * nutjobHeighttwo);
 console.log(meritBmitwo);
 console.log(nutjobBmitwo);
 
-/*let myCondition = (meritBmi > nutjobBmi);
-function test(myCondition) {
-    if (meritBmi > nutjobBmi) {
-        return "It was true";
-    }
-    return "It was false";
-}
-
-test(true);
-test(false);
-console.log(test);*/
