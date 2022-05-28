@@ -88,3 +88,8 @@ let nutjobBmitwo = nutjobWeighttwo /(nutjobHeighttwo * nutjobHeighttwo);
 console.log(meritBmitwo);
 console.log(nutjobBmitwo);
 
+let meritHeigherBmi = meritBmi > nutjobBmi;
+console.log(meritHeigherBmi);
+
+let nutjobLowerBmi = nutjobBmitwo < meritBmitwo;
+console.log(nutjobLowerBmi);
