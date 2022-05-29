@@ -2,9 +2,9 @@ var head = document.getElementById("heading");
 var text = document.createTextNode("TEAM HERMES");
 head.appendChild(text);
 
-document.getElementById("container").style.backgroundColor ="coral";
+document.getElementById("container").style.backgroundColor ="skyblue";
 document.getElementById("heading").style.color = "blue";
-document.getElementById("lists").style.color = "blue";
+document.getElementById("lists").style.color = "red";
 
 const teamMates = ["Code Giyu", "Natacha", "Adedamola", "Fawsiyyah", "Dee Vee", "Ifechukwude", "Michael"];
 console.log(teamMates[3]);

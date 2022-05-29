@@ -3,15 +3,50 @@
     margin: 0;
     box-sizing :border-box;
 }
+#main {
+    position: relative;
+    margin-bottom: auto;
+    margin-top: auto;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: rgb(151, 149, 149);
+}
 
 #container {
-    margin: auto;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 300px;
     width: 50%;
-    border-radius: 250px 250px;
-    box-shadow: 10px 10px black;
-    padding: 30px;
-    margin-top: 150px;
+    border-radius: 80px 50px 50px 80px;
+    box-shadow: 10px 10px 10px 10px rgb(68, 67, 67);
+    z-index: 1;
+    overflow: hidden;
 }
+
+#container::after {
+    content: '';
+    width: 20%;
+    aspect-ratio: 0.5;
+    z-index: 2;
+    position: absolute;
+    background-color: blue;
+    bottom: 0%;
+    right: 81.5%;
+    transform: rotate(360deg);
+}
+
+#container::before {
+    content: '';
+    width: 20%;
+    aspect-ratio: 0.5;
+    z-index: 2;
+    position: absolute;
+    background-color: blue;
+    bottom: 0%;
+    right: -1.5%;
+    transform: rotate(360deg);
+}
+
 
 #lists li {
     list-style:none;
@@ -19,7 +54,7 @@
     margin-bottom: 10px;
 }
 
-.card {
+#container .card {
     text-align: center;
 }
 
@@ -31,6 +66,8 @@
 .girls {
     color: black;
 }
+
+
 
 @media (max-width:769px) and (min-width:426px) {
     #container{
