@@ -2,7 +2,7 @@ var head = document.getElementById("heading");
 var text = document.createTextNode("TEAM HERMES");
 head.appendChild(text);
 
-document.getElementById("container").style.backgroundColor ="skyblue";
+document.getElementById("container").style.backgroundColor ="white";
 document.getElementById("heading").style.color = "blue";
 document.getElementById("lists").style.color = "red";
 
@@ -12,7 +12,7 @@ console.log(teamMates[3]);
 const about = {
     "First name": "Fawsiyyah",
     "Last name": "Lamidi",
-    "Best movie": "Blood and Water",
+    "Best movie": "My best moovie is Blood and Water",
     "Best food": "Noodles",
     "Complexion": "Fair",
     "State": "Osun",
@@ -22,7 +22,7 @@ console.log(about["Best movie"]);
 
 var noun = " Tolu ";
 var verb = " sings ";
-var adjective = " beautiful ";
+var adjective = " beautiful";
 const firstSentence = noun + "is" + adjective + ".";
 const secondSentence = noun + verb + "beautifully.";
 const thirdSentence = "Adam" + verb + "with" + adjective + noun +".";
